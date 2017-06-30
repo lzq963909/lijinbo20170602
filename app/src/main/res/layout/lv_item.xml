@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="奇幻"
+            android:id="@+id/tv1"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="雪男"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/quanji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全集>"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_tv"
+            android:text="第十五话  你为什么接近我"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="39万"
+        />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5841"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
